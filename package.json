@@ -1,5 +1,6 @@
 {
   "name": "vite-project",
+  "homepage": "https://marshallgerber.github.io/3dwebsite",
   "version": "0.0.0",
   "private": true,
   "type": "module",

@@ -1,4 +1,9 @@
-export default {
-  base: '/3dwebsite/',
-}
-    
+import { defineConfig } from 'vite'
+
+export default defineConfig({
+  build: {
+    rollupOptions: {
+      external: ['fsevents']
+    }
+  }
+})
